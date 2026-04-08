@@ -31,7 +31,6 @@ public static void main(String[] args) {
             double calculoAltura = area - base;
 
             System.out.printf("h=%.2f", + Math.sqrt(calculoAltura));
-
             } else if (escolhaCalculo >= 3) {
                 String erro = "ERRO! Escolha entre os números 1 e 2";
                 IllegalArgumentException error = new IllegalArgumentException(erro);

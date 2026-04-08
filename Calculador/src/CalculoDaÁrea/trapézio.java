@@ -9,7 +9,7 @@ public class trapézio {
         Scanner terminal = new Scanner(System.in);
 
         // Obs: O calculo de trapézio e bem simples, pois a formula utilizada resulta no resultado de todos os tipos de trapézio.
-        // Exceto se caso exista a precisão de um teorema de pitágoras, 
+        // Exceto, se caso exista a precisão de um teorema de pitágoras, 
         // como o trapézio escaleno, trapézio isósceles e trapézio retângulo.
 
         System.out.println("Precisa utilizar o Teorema de Pitágoras?" + "\n" + "1.Sim" + "\n" + "2.Não" 
